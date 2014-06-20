@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3254AD8F1953BD56006C41BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3254AD8E1953BD56006C41BD /* Foundation.framework */; };
+		3254AD911953BD56006C41BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3254AD901953BD56006C41BD /* CoreGraphics.framework */; };
+		3254AD931953BD56006C41BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3254AD921953BD56006C41BD /* UIKit.framework */; };
+		3254AD991953BD56006C41BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3254AD971953BD56006C41BD /* InfoPlist.strings */; };
+		3254AD9B1953BD56006C41BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3254AD9A1953BD56006C41BD /* main.m */; };
+		3254AD9F1953BD56006C41BD /* VCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3254AD9E1953BD56006C41BD /* VCAppDelegate.m */; };
+		3254ADA11953BD56006C41BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3254ADA01953BD56006C41BD /* Images.xcassets */; };
+		3254ADA81953BD56006C41BD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3254ADA71953BD56006C41BD /* XCTest.framework */; };
+		3254ADA91953BD56006C41BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3254AD8E1953BD56006C41BD /* Foundation.framework */; };
+		3254ADAA1953BD56006C41BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3254AD921953BD56006C41BD /* UIKit.framework */; };
+		3254ADB21953BD56006C41BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3254ADB01953BD56006C41BD /* InfoPlist.strings */; };
+		3254ADB41953BD56006C41BD /* VCAnimationKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3254ADB31953BD56006C41BD /* VCAnimationKeyboardTests.m */; };
+		3254ADC01953BDB8006C41BD /* VCInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3254ADBF1953BDB8006C41BD /* VCInputTextView.m */; };
+		3254ADC41953C204006C41BD /* VCAnimationKeyboardDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3254ADC31953C204006C41BD /* VCAnimationKeyboardDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3254ADAB1953BD56006C41BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3254AD831953BD56006C41BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3254AD8A1953BD56006C41BD;
+			remoteInfo = VCAnimationKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3254AD8B1953BD56006C41BD /* VCAnimationKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCAnimationKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3254AD8E1953BD56006C41BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3254AD901953BD56006C41BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3254AD921953BD56006C41BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3254AD961953BD56006C41BD /* VCAnimationKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VCAnimationKeyboard-Info.plist"; sourceTree = "<group>"; };
+		3254AD981953BD56006C41BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3254AD9A1953BD56006C41BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3254AD9C1953BD56006C41BD /* VCAnimationKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VCAnimationKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		3254AD9D1953BD56006C41BD /* VCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCAppDelegate.h; sourceTree = "<group>"; };
+		3254AD9E1953BD56006C41BD /* VCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCAppDelegate.m; sourceTree = "<group>"; };
+		3254ADA01953BD56006C41BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3254ADA61953BD56006C41BD /* VCAnimationKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCAnimationKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3254ADA71953BD56006C41BD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3254ADAF1953BD56006C41BD /* VCAnimationKeyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VCAnimationKeyboardTests-Info.plist"; sourceTree = "<group>"; };
+		3254ADB11953BD56006C41BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3254ADB31953BD56006C41BD /* VCAnimationKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCAnimationKeyboardTests.m; sourceTree = "<group>"; };
+		3254ADBE1953BDB8006C41BD /* VCInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCInputTextView.h; path = View/VCInputTextView.h; sourceTree = "<group>"; };
+		3254ADBF1953BDB8006C41BD /* VCInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCInputTextView.m; path = View/VCInputTextView.m; sourceTree = "<group>"; };
+		3254ADC21953C204006C41BD /* VCAnimationKeyboardDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCAnimationKeyboardDemoViewController.h; path = Controller/VCAnimationKeyboardDemoViewController.h; sourceTree = "<group>"; };
+		3254ADC31953C204006C41BD /* VCAnimationKeyboardDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCAnimationKeyboardDemoViewController.m; path = Controller/VCAnimationKeyboardDemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3254AD881953BD56006C41BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3254AD911953BD56006C41BD /* CoreGraphics.framework in Frameworks */,
+				3254AD931953BD56006C41BD /* UIKit.framework in Frameworks */,
+				3254AD8F1953BD56006C41BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3254ADA31953BD56006C41BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3254ADA81953BD56006C41BD /* XCTest.framework in Frameworks */,
+				3254ADAA1953BD56006C41BD /* UIKit.framework in Frameworks */,
+				3254ADA91953BD56006C41BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3254AD821953BD56006C41BD = {
+			isa = PBXGroup;
+			children = (
+				3254AD941953BD56006C41BD /* VCAnimationKeyboard */,
+				3254ADAD1953BD56006C41BD /* VCAnimationKeyboardTests */,
+				3254AD8D1953BD56006C41BD /* Frameworks */,
+				3254AD8C1953BD56006C41BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3254AD8C1953BD56006C41BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3254AD8B1953BD56006C41BD /* VCAnimationKeyboard.app */,
+				3254ADA61953BD56006C41BD /* VCAnimationKeyboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3254AD8D1953BD56006C41BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3254AD8E1953BD56006C41BD /* Foundation.framework */,
+				3254AD901953BD56006C41BD /* CoreGraphics.framework */,
+				3254AD921953BD56006C41BD /* UIKit.framework */,
+				3254ADA71953BD56006C41BD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3254AD941953BD56006C41BD /* VCAnimationKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3254ADC11953BF66006C41BD /* Controller */,
+				3254ADBD1953BD6A006C41BD /* View */,
+				3254AD9D1953BD56006C41BD /* VCAppDelegate.h */,
+				3254AD9E1953BD56006C41BD /* VCAppDelegate.m */,
+				3254ADA01953BD56006C41BD /* Images.xcassets */,
+				3254AD951953BD56006C41BD /* Supporting Files */,
+			);
+			path = VCAnimationKeyboard;
+			sourceTree = "<group>";
+		};
+		3254AD951953BD56006C41BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3254AD961953BD56006C41BD /* VCAnimationKeyboard-Info.plist */,
+				3254AD971953BD56006C41BD /* InfoPlist.strings */,
+				3254AD9A1953BD56006C41BD /* main.m */,
+				3254AD9C1953BD56006C41BD /* VCAnimationKeyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3254ADAD1953BD56006C41BD /* VCAnimationKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				3254ADB31953BD56006C41BD /* VCAnimationKeyboardTests.m */,
+				3254ADAE1953BD56006C41BD /* Supporting Files */,
+			);
+			path = VCAnimationKeyboardTests;
+			sourceTree = "<group>";
+		};
+		3254ADAE1953BD56006C41BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3254ADAF1953BD56006C41BD /* VCAnimationKeyboardTests-Info.plist */,
+				3254ADB01953BD56006C41BD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3254ADBD1953BD6A006C41BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3254ADBE1953BDB8006C41BD /* VCInputTextView.h */,
+				3254ADBF1953BDB8006C41BD /* VCInputTextView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3254ADC11953BF66006C41BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3254ADC21953C204006C41BD /* VCAnimationKeyboardDemoViewController.h */,
+				3254ADC31953C204006C41BD /* VCAnimationKeyboardDemoViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3254AD8A1953BD56006C41BD /* VCAnimationKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3254ADB71953BD56006C41BD /* Build configuration list for PBXNativeTarget "VCAnimationKeyboard" */;
+			buildPhases = (
+				3254AD871953BD56006C41BD /* Sources */,
+				3254AD881953BD56006C41BD /* Frameworks */,
+				3254AD891953BD56006C41BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCAnimationKeyboard;
+			productName = VCAnimationKeyboard;
+			productReference = 3254AD8B1953BD56006C41BD /* VCAnimationKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3254ADA51953BD56006C41BD /* VCAnimationKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3254ADBA1953BD56006C41BD /* Build configuration list for PBXNativeTarget "VCAnimationKeyboardTests" */;
+			buildPhases = (
+				3254ADA21953BD56006C41BD /* Sources */,
+				3254ADA31953BD56006C41BD /* Frameworks */,
+				3254ADA41953BD56006C41BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3254ADAC1953BD56006C41BD /* PBXTargetDependency */,
+			);
+			name = VCAnimationKeyboardTests;
+			productName = VCAnimationKeyboardTests;
+			productReference = 3254ADA61953BD56006C41BD /* VCAnimationKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3254AD831953BD56006C41BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vincent Chow";
+				TargetAttributes = {
+					3254ADA51953BD56006C41BD = {
+						TestTargetID = 3254AD8A1953BD56006C41BD;
+					};
+				};
+			};
+			buildConfigurationList = 3254AD861953BD56006C41BD /* Build configuration list for PBXProject "VCAnimationKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3254AD821953BD56006C41BD;
+			productRefGroup = 3254AD8C1953BD56006C41BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3254AD8A1953BD56006C41BD /* VCAnimationKeyboard */,
+				3254ADA51953BD56006C41BD /* VCAnimationKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3254AD891953BD56006C41BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3254AD991953BD56006C41BD /* InfoPlist.strings in Resources */,
+				3254ADA11953BD56006C41BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3254ADA41953BD56006C41BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3254ADB21953BD56006C41BD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3254AD871953BD56006C41BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3254ADC41953C204006C41BD /* VCAnimationKeyboardDemoViewController.m in Sources */,
+				3254AD9B1953BD56006C41BD /* main.m in Sources */,
+				3254AD9F1953BD56006C41BD /* VCAppDelegate.m in Sources */,
+				3254ADC01953BDB8006C41BD /* VCInputTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3254ADA21953BD56006C41BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3254ADB41953BD56006C41BD /* VCAnimationKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3254ADAC1953BD56006C41BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3254AD8A1953BD56006C41BD /* VCAnimationKeyboard */;
+			targetProxy = 3254ADAB1953BD56006C41BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3254AD971953BD56006C41BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3254AD981953BD56006C41BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3254ADB01953BD56006C41BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3254ADB11953BD56006C41BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3254ADB51953BD56006C41BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3254ADB61953BD56006C41BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3254ADB81953BD56006C41BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCAnimationKeyboard/VCAnimationKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "VCAnimationKeyboard/VCAnimationKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3254ADB91953BD56006C41BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCAnimationKeyboard/VCAnimationKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "VCAnimationKeyboard/VCAnimationKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3254ADBB1953BD56006C41BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VCAnimationKeyboard.app/VCAnimationKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCAnimationKeyboard/VCAnimationKeyboard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VCAnimationKeyboardTests/VCAnimationKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3254ADBC1953BD56006C41BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VCAnimationKeyboard.app/VCAnimationKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCAnimationKeyboard/VCAnimationKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "VCAnimationKeyboardTests/VCAnimationKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3254AD861953BD56006C41BD /* Build configuration list for PBXProject "VCAnimationKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3254ADB51953BD56006C41BD /* Debug */,
+				3254ADB61953BD56006C41BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3254ADB71953BD56006C41BD /* Build configuration list for PBXNativeTarget "VCAnimationKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3254ADB81953BD56006C41BD /* Debug */,
+				3254ADB91953BD56006C41BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3254ADBA1953BD56006C41BD /* Build configuration list for PBXNativeTarget "VCAnimationKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3254ADBB1953BD56006C41BD /* Debug */,
+				3254ADBC1953BD56006C41BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3254AD831953BD56006C41BD /* Project object */;
+}
